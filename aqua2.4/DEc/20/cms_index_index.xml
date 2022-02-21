@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+<head>
+        <remove src="mage/calendar.css"/>
+        <remove src="css/print.css"/>
+        <remove src="Mageplaza_ProductAlerts::css/style.css"/> 
+        <remove src="Mageplaza_Core::css/magnific-popup.css"/> 
+        <remove src="MageWorx_ShippingRules::css/slick.css"/>   
+        <remove src="MageWorx_ShippingRules::css/location.css"/>     
+        <remove src="MageWorx_ShippingRules::css/slick-theme.css"/>  
+        <!-- <remove src="WeltPixel_DesignElements::css/utilities.css"/>     -->
+        <!-- <remove src="WeltPixel_DesignElements::css/imports/shortcodes/tabs.css"/>     -->
+        <!-- <remove src="WeltPixel_DesignElements::css/imports/shortcodes/toggles-accordions.css"/>     -->
+        <remove src="WeltPixel_DesignElements::css/imports/shortcodes/clients.css"/>    
+        <remove src="WeltPixel_DesignElements::css/imports/shortcodes/brands.css"/>  
+        <remove src="WeltPixel_ProductPage::css/weltpixel_product_store_default.css"/>   
+        <remove src="WeltPixel_Quickview::css/magnific-popup.css"/> 
+
+        <remove src="WeltPixel_Quickview::js/weltpixel_quickview.js"/>
+        <remove src="WeltPixel_QuickCart::js/quickcart.js"/>
+        <remove src="WeltPixel_Quickview::js/jquery.magnific-popup.min.js"/>
+        <remove src="Signifyd_Connect::js/view/signifyd-fingerprint.js"/>  
+    </head>
+    <body/>
+</page>

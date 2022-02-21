@@ -1,0 +1,4 @@
+[2021-12-31 06:39:09] wesupplyLog.ERROR: WeSupply API Error: generateNewToken() Could not resolve host: oauth; Name or service not known [] []
+[2021-12-31 06:39:09] wesupplyLog.ERROR: Access token not found or couldn't be generated! [] []
+[2021-12-31 06:39:10] wesupplyLog.ERROR: WeSupply API Error: generateNewToken() Could not resolve host: oauth; Name or service not known [] []
+[2021-12-31 06:39:10] wesupplyLog.ERROR: Access token not found or couldn't be generated! [] []

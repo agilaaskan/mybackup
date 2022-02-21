@@ -1,0 +1,60 @@
+# ==================================
+#  Start iDevAffiliate SEO Code
+# ==================================
+
+RewriteEngine On
+
+# Forced Tier Linking Code
+RewriteRule ^signup-([0-9]+)\.html$ https://www\.aquariumspecialty\.com/idevaffiliate/recruit\.php?ref=$1 [R=301,L]
+
+# TextAds
+RewriteRule ^([0-9]+)-([a-z]+)-([0-9]+)\.html$ https://www\.aquariumspecialty\.com/idevaffiliate/idevads\.php?id=$1&ad=$3 [R=301,L]
+RewriteRule ^([0-9]+)-([a-z]+)-([0-9]+)-([0-9]+)\.html$ https://www\.aquariumspecialty\.com/idevaffiliate/idevads\.php?id=$1&ad=$3&page=$4 [R=301,L]
+
+# Product Feeds
+RewriteRule ^feed-([0-9]+)-([0-9]+)\.html$ https://www\.aquariumspecialty\.com/idevaffiliate/idevaffiliate\.php?id=$1&feed=$2 [R=301,L]
+
+# Facebook Links
+RewriteRule ^fb([0-9]+)-([0-9]+)\.html$ https://www\.aquariumspecialty\.com/idevaffiliate/fb_url\.php?id=$1&page=$2 [R=301,L]
+
+# Standard Links
+RewriteRule ^([0-9]+)\.html$ https://www\.aquariumspecialty\.com/idevaffiliate/idevaffiliate\.php?id=$1 [R=301,L]
+RewriteRule ^([0-9]+)-([0-9]+)\.html$ https://www\.aquariumspecialty\.com/idevaffiliate/idevaffiliate\.php?id=$1&page=$2 [R=301,L]
+RewriteRule ^([0-9]+)-([0-9]+)-([0-9]+)\.html$ https://www\.aquariumspecialty\.com/idevaffiliate/idevaffiliate\.php?id=$1&page=$2&set=$3 [R=301,L]
+RewriteRule ^([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)\.html$ https://www\.aquariumspecialty\.com/idevaffiliate/idevaffiliate\.php?id=$1&page=$2&set=$3&link=$4 [R=301,L]
+RewriteRule ^([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z]+)\.html$ https://www\.aquariumspecialty\.com/idevaffiliate/idevaffiliate\.php?id=$1&page=$2&set=$3&link=$4&keyword=$5 [R=301,L]
+RewriteRule ^([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z]+)-([0-9]+)\.html$ https://www\.aquariumspecialty\.com/idevaffiliate/idevaffiliate\.php?id=$1&page=$2&set=$3&link=$4&keyword=$5&custom=$6 [R=301,L]
+RewriteRule ^([0-9]+)-([0-9]+)-([0-9]+)-([0-9]+)-([a-zA-Z]+)-([0-9]+)-([0-9]+)\.html$ https://www\.aquariumspecialty\.com/idevaffiliate/idevaffiliate\.php?id=$1&page=$2&set=$3&link=$4&keyword=$5&custom=$6&url=$7 [R=301,L]
+
+# ==================================
+#  End iDevAffiliate SEO Code
+# ==================================
+
+RewriteEngine on
+RewriteCond %{REQUEST_URI} !^/pub/
+RewriteCond %{REQUEST_URI} !^/setup/
+RewriteCond %{REQUEST_URI} !^/update/
+RewriteCond %{REQUEST_URI} !^/dev/
+RewriteRule .* /pub/$0 [L]
+DirectoryIndex index.php
+
+redirect 301 /equipment/pumps/waveline-apex-ready-dc-pumps-gen2 http://www.aquariumspecialty.com/equipment/pumps/waveline-dc-pumps-gen2.html
+redirect 301 /care-and-maintenance/additives-and-medications/medication-and-treatment/two-little-fishies-revive-coral-cleaner-500ml http://www.aquariumspecialty.com/two-little-fishies-revive-coral-cleaner-500ml.html
+redirect 301 /care-and-maintenance/additives-medications/korallen-zucht-zeovit-zeolith-zeolite-rocks-1-liter http://www.aquariumspecialty.com/care-and-maintenance/additives-medications/reactor-media.html
+redirect 301 /equipment/controllers-monitors/accessories/esv-titanium-grounding-probe http://www.aquariumspecialty.com/equipment/controllers-monitors/accessories.html
+redirect 301 /care-and-maintenance/food-and-feeders/coral-and-invert-food/reef-interests-reef-pearls-lps-500-1000-micron http://www.aquariumspecialty.com/dr-g-s-sps-max-coral-food-8-oz.html
+redirect 301 /care-and-maintenance/additives-and-medications/additives/esv-b-ionic-magnesium http://www.aquariumspecialty.com/kent-marine-tech-m-magnesium.html
+redirect 301 /care-and-maintenance/additives-and-medications/additives/esv-b-ionic-calcium-buffer-system http://www.aquariumspecialty.com/esv-b-ionic-calcium-buffer-system-concentrate.html
+redirect 301 /shop-by-brand/aqua-illumination/aqua-illumination-ext-48-upright-rail http://www.aquariumspecialty.com/
+redirect 301 /specials http://www.aquariumspecialty.com/sale-clearance-items.html
+redirect 301 /reef-interests-po4x4 http://www.aquariumspecialty.com/shop-by-brand/reef-interests/reef-interests-px-pro-po4-reducing-media.html
+redirect 301 /reef-pest-solutions-all-out http://www.aquariumspecialty.com/shop-by-brand/coralrx.html
+redirect 301 /equipment/ozonizers/reef-octopus-ozone-reactor-6-chamber http://www.aquariumspecialty.com/equipment/ozonizers.html
+redirect 301 /shop-by-brand/thomas-labs.html https://www.aquariumspecialty.com/care-and-maintenance/food-and-feeders.html?manufacturer=7099
+
+redirect 301 /shop-by-brand/deep-blue.html https://www.aquariumspecialty.com/
+redirect 301 /shop-by-brand/euroquatics.html https://www.aquariumspecialty.com/shop-by-brand/let-lighting.html
+redirect 301 /shop-by-brand/ge.html https://www.aquariumspecialty.com/lighting/t5-vho-lamps.html
+redirect 301 /shop-by-brand/jbj.html https://www.aquariumspecialty.com/equipment/powerheads.html
+redirect 301 /shop-by-brand/orphek.html https://www.aquariumspecialty.com/shop-by-brand/let-lighting.html
+redirect 301 /shop-by-brand/tropic-marin.html https://www.aquariumspecialty.com/

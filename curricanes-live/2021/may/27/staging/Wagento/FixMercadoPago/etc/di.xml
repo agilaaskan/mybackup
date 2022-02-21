@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <preference for="MercadoPago\Core\Model\Core" type="Wagento\FixMercadoPago\Model\Core" />
+    <preference for="MercadoPago\Core\Model\Preference\Basic" type="Wagento\FixMercadoPago\Model\Preference\Basic" />
+    <preference for="MercadoPago\Core\Model\CustomPix\Payment" type="Wagento\FixMercadoPago\Model\CustomPix\Payment" />
+    <preference for="MercadoPago\Core\Model\CustomTicket\Payment" type="Wagento\FixMercadoPago\Model\CustomTicket\Payment" />
+    <preference for="MercadoPago\Core\Model\CustomBankTransfer\Payment" type="Wagento\FixMercadoPago\Model\CustomBankTransfer\Payment" />
+</config>

@@ -1,0 +1,1 @@
+UPDATE core_config_data SET value = 6 WHERE path = "design/theme/theme_id";

@@ -1,0 +1,49 @@
+1.clone m4 site
+2.m4 db export and import in local
+3.truncate tables in clone site
+4.get insert query for 6 tabeles ffrom local
+5.To prepare brand category
+6.to prepare brand addtribute
+ -eav-option tables
+ -eav-option-value tables
+ -eav_entity_attribute (no changes need)
+7.change urls in files
+ -custom.css
+ -magento_contact/template/form.phtml
+ -magento_checkout/minicart.pgtml
+ -/Mageplaza/LazyLoading/view/frontend/templates/product/image_with_borders.phtml
+
+
+live migration:
+1.export and download live db in local
+2.import live db in staging
+3.truncate 6 tables
+5.set foreign key 0
+4.insert 6 tables
+5,cms page 
+6.cms-block (remove duplicate block_id 98)
+INSERT INTO `cms_block` (`row_id`, `block_id`, `created_in`, `updated_in`, `title`, `identifier`, `content`, `creation_time`, `update_time`, `is_active`) VALUES
+(113, 98, 1597899541, 2147483647, 'PROMOCIONES', 'promociones', '<div data-content-type=\"row\" data-appearance=\"full-bleed\" data-enable-parallax=\"0\" data-parallax-speed=\"0.5\" data-background-images=\"{\\&quot;desktop_image\\&quot;:\\&quot;{{media url=wysiwyg/santapc_2.jpg}}\\&quot;,\\&quot;mobile_image\\&quot;:\\&quot;{{media url=wysiwyg/santamovil2_1.jpg}}\\&quot;}\" data-element=\"main\" style=\"justify-content: center; display: flex; flex-direction: column; background-position: center top; background-size: contain; background-repeat: no-repeat; background-attachment: scroll; text-align: center; border-style: none; border-color: rgb(0, 0, 0); border-width: 3px; border-radius: 0px; min-height: 480px; margin: 0px; padding: 0px;\"></div>', '2020-03-30 16:39:06', '2021-02-09 16:19:39', 1);
+5.set foreign key 1
+6.brand category insert 
+7.brand attribute
+8.git push site
+9.widget 
+10.change welcome message and configration settings
+11.turn on email in cloud
+12.doublecheck for brand block is added in category page
+UPDATE `catalog_category_entity_varchar` SET value = 'brand' WHERE `attribute_id` IN (117,118) AND `row_id` = 277;
+change brands.html to brand.html in url_rewrite
+13.dotdigital settings
+14.recaptcha for create user and review -trun off (because site owner issue)
+
+cou1403112c1admin
+patricio
+CEKcFq3YCNgJhemc
+
+https://sandboxm4-4w2ikjy-jnn4ff2eo42oa.us-3.magentosite.cloud/
+https://sandboxm2-yml5nea-jnn4ff2eo42oa.us-3.magentosite.cloud/
+https://sandboxm5-kioy2oy-jnn4ff2eo42oa.us-3.magentosite.cloud/
+
+
+to change yes to disable email communication to fix newsletter email

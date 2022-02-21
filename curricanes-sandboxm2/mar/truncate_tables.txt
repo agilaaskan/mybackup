@@ -1,0 +1,8 @@
+SET FOREIGN_KEY_CHECKS=0;
+TRUNCATE TABLE cms_page;
+TRUNCATE TABLE cms_page_store;
+TRUNCATE TABLE cms_block;
+TRUNCATE TABLE cms_block_store;
+TRUNCATE TABLE eav_attribute;
+TRUNCATE TABLE setup_module;
+SET FOREIGN_KEY_CHECKS=1;

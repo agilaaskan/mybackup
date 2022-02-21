@@ -1,0 +1,7 @@
+UPDATE core_config_data SET value = 6 WHERE path = "design/theme/theme_id";
+
+UPDATE core_config_data SET value = "https://sandboxm5-kioy2oy-jnn4ff2eo42oa.us-3.magentosite.cloud/" WHERE path = "web/unsecure/base_url";
+UPDATE core_config_data SET value = "https://sandboxm5-kioy2oy-jnn4ff2eo42oa.us-3.magentosite.cloud/" WHERE path = "web/secure/base_url";
+UPDATE core_config_data SET value = "https://sandboxm5-kioy2oy-jnn4ff2eo42oa.us-3.magentosite.cloud/media/wysiwyg/oxxo3.jpg" WHERE path = "payment/mercadopago_customticket/banner_checkout";
+
+

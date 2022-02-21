@@ -1,0 +1,11 @@
+to change chrimastas banner and logo
+1. logo
+ change in file page 
+ /var/www/html/tiptopshop.com.au/skin/frontend/smartwave/portowatchau/images/logo_one.png- header logo
+ /var/www/html/tiptopshop.com.au/skin/frontend/smartwave/portowatchau/images/logo.png- footer logo
+
+2.bannerdesktop:
+  add via widget
+mobile amp
+  /var/www/html/tiptopshop.com.au/app/design/frontend/smartwave/portowatchau/template/pramp/homepage/category
+ 

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+      <body>
+        <!-- Removed the tab as review is not working and renamed "tragetbay_reviews.tab" as "reviews.tab"-->
+        <!--referenceBlock name="reviews.tab" remove="true"/-->
+        <referenceBlock name="product.info.review" remove="true"/>
+        <referenceBlock name="product.info.details">
+            <block  class="Targetbay\Reviews\Block\Product\Review" name="reviews.tab"
+                   as="tracking-product-review" template="Targetbay_Reviews::product/review.phtml"
+                   group="detailed_info">
+                <arguments>
+                    <argument translate="true" name="title" xsi:type="string">Reviews</argument>
+                </arguments>
+            </block>
+        </referenceBlock>       
+    </body>
+</page>
